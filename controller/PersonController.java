@@ -15,7 +15,7 @@ public class PersonController {
 
     @Autowired
     private PersonRepository personRepository;
-
+//lisää muutettu
     @RequestMapping(method = RequestMethod.POST)
     public String create(@ModelAttribute Person person) {
         personRepository.save(person);

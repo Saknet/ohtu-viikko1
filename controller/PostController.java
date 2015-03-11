@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import wad.domain.Post;
 import wad.repository.PostRepository;
-
+//muutoksia muutoksia
 @Controller
 @RequestMapping("/posts")
 public class PostController {

@@ -8,7 +8,7 @@ import wad.domain.Person;
 import wad.domain.Post;
 import wad.repository.PersonRepository;
 import wad.repository.PostRepository;
-
+//vielä lisää
 @Configuration
 @Profile(value = {"dev", "default"})
 public class DevProfile {
