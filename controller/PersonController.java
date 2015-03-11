@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import wad.domain.Person;
 import wad.repository.PersonRepository;
 
+//muutettu sisältöä ohtu viikko2 tehtävä2 varten
 @Controller
 @RequestMapping("/persons")
 public class PersonController {

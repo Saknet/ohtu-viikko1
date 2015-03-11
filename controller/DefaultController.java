@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import wad.repository.PersonRepository;
 import wad.repository.PostRepository;
 
+//muutettu sisältöä ohtu viikko2 tehtävä2 varten
 @Controller
 @RequestMapping("*")
 public class DefaultController {

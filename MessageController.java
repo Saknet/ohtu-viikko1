@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import wad.domain.Message;
 import wad.repository.MessageRepository;
-
+//muutettu sisältöä ohtu viikko2 tehtävä2 varten
 @Controller
 @RequestMapping("/messages")
 public class MessageController {
-
+   
     @Autowired
     private MessageRepository messageRepository;
 
