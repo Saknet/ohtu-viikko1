@@ -99,7 +99,6 @@ public class VarastoTest {
     public void eiVoiOttaaNegatiivistäMäärää() {
         varasto.lisaaVarastoon(8);
         varasto.otaVarastosta(-5);
-        
         assertEquals(8, varasto.getSaldo(), vertailuTarkkuus);
     }   
 }
